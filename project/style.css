@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+*{
+    font-family: 'poopins', sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+
+}
+
+/* Start welcome page style */
+
+.welcome{
+    min-width: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    padding-bottom: 100px;
+    background-image:url(https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/1b9nbdti541vLluzjIs8jR/cc708e10c7aa72eb6b2bfd330d361bd5/GettyImages-1164885329.jpg?w=1500&h=680&q=60&fit=fill&f=faces&fm=jpg&fl=progressive&auto=format%2Ccompress&dpr=1&w=1000&h=) ;
+    background-repeat : no-repeat;
+    background-size: 100%;
+}
+
+.welcome h1{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.welcome a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* End welcome page style */
+
+
+
+/* Start admin & user page style */
+
+.container{
+    min-width: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 250px;
+    padding-bottom: 60px;
+}
+
+.container .content{
+    text-align: center;
+
+}
+
+.container .content h3{
+    font-size: 30px;
+    color: black;
+}
+
+.container .content h3 span{
+    background: purple;
+    color: white;
+    border-radius: 5px;
+    padding: 0 10px;
+}
+
+.container .content h1{
+    font-size: 50px;
+    color: black;
+}
+
+.container .content h1 span{
+    color: purple;
+}
+
+.container .content p{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.container .content .btn{
+    display:inline-block;
+    padding: 10px 30px;
+    font-size: 20px;
+    background: black;
+    color: white;
+    margin:0 5px;
+    text-transform: capitalize;
+}
+
+.container .content .btn:hover{
+    background: purple ;
+}
+
+/* End admin & user page style */
+
+
+/* Start register page style */
+
+.form-container{
+    min-width: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    padding-bottom: 100px;
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5ATG1s-PCoq9LZPg9dhMxTHCJWgYzxmuNyw&usqp=CAU) ;
+    background-repeat : no-repeat;
+    background-size: 100%;
+   
+}
+
+.form-container form{
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px black;
+    background: white;
+    text-align: center;
+    width: 500px;
+
+}
+
+.form-container form h3{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: rgb(180, 181, 181);
+}
+
+.form-container form input{
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 17px;
+    margin: 8px 0;
+    background: rgb(188, 188, 199);
+    border-radius: 5px;
+}
+
+.form-container form select{
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 17px;
+    margin: 8px 0;
+    background: rgb(188, 188, 199);
+    border-radius: 5px;
+}
+
+.form-container form select option{
+    background: white;
+}
+
+.form-container form .form-btn{
+background: rgb(4, 46, 76);
+color: rgb(255, 242, 242);
+text-transform: capitalize;
+font-size: 20px;
+cursor: pointer;
+}
+
+.form-container form .form-btn:hover{
+    background: rgb(66, 38, 228);
+    color: black;
+}
+
+.form-container form p{
+    margin-top: 10px;
+    font-size: 20px;
+    color: black;
+}
+
+.form-container form p a{
+    color: blue;
+}
+
+.form-container form .error-msg{
+margin: 10px 0;
+display: block;
+background: rgb(190, 43, 43);
+color: white;
+border-radius: 5px;
+font-size: 20px;
+
+}
+/* End register page style */
+
+
+/* Start login page style */
+
+.login-container{
+    min-width: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 150px;
+    padding-bottom: 250px;
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyApWeSSvOWkDFxqtv5FGLfiA__swyrRxmJg&usqp=CAU) ;
+    background-repeat : no-repeat;
+    background-size: 100%;
+}
+
+.login-container form{
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px black;
+    background: white;
+    text-align: center;
+    width: 500px;
+    height: 400px;
+
+}
+
+.login-container form h3{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(180, 181, 181);
+}
+
+.login-container form input{
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 17px;
+    margin: 18px 0;
+    background: rgb(188, 188, 199);
+    border-radius: 5px;
+}
+
+.login-container form select{
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 17px;
+    margin: 8px 0;
+    background: rgb(188, 188, 199);
+    border-radius: 5px;
+}
+
+.ilogin-container form select option{
+    background: white;
+}
+
+.login-container form .form-btn{
+    background: rgb(4, 46, 76);
+    color: rgb(255, 242, 242);
+    text-transform: capitalize;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.login-container form .form-btn:hover{
+    background: rgb(66, 38, 228);
+    color: black;
+}
+
+.login-container form p{
+    margin-top: 10px;
+    font-size: 20px;
+    color: black;
+}
+
+.login-container form p a{
+    color: blue;
+}
+
+.login-container form .error-msg{
+margin: 10px 0;
+display: block;
+background: rgb(190, 43, 43);
+color: white;
+border-radius: 5px;
+font-size: 20px;
+} 
+
+/* End login page style */
