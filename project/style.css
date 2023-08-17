@@ -13,29 +13,42 @@
 
 /* Start welcome page style */
 
-.welcome{
+.home{
     min-width: 100vh;
-    display: flex;
+    display:grid;
     align-items: center;
     justify-content: center;
-    padding: 100px;
-    padding-bottom: 100px;
-    background-image:url(https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/1b9nbdti541vLluzjIs8jR/cc708e10c7aa72eb6b2bfd330d361bd5/GettyImages-1164885329.jpg?w=1500&h=680&q=60&fit=fill&f=faces&fm=jpg&fl=progressive&auto=format%2Ccompress&dpr=1&w=1000&h=) ;
+    padding: 200px;
+    padding-bottom: 400px;
+    background-image:url(./Screenshot\ 2023-08-16\ 015516.png) ;
     background-repeat : no-repeat;
     background-size: 100%;
 }
 
-.welcome h1{
-    font-size: 30px;
+.home h1{
+    font-size: 50px;
     text-transform: uppercase;
     margin-top: 20px;
     margin-bottom: 20px;
-    color: black;
+    color: white;
 }
 
-.welcome a {
+.home .btn{
+    display:inline-block;
+    padding: 10px 150px;
+    font-size: 20px;
+    background: rgb(191, 191, 236);
+    color:  rgb(103, 61, 140);;
+    margin:10px 200px;
+    text-transform: capitalize;
     text-decoration: none;
     cursor: pointer;
+}
+
+
+.home .btn:hover{
+    color:rgb(180, 23, 130);
+    background: whitesmoke;
 }
 
 /* End welcome page style */
@@ -110,7 +123,7 @@
     justify-content: center;
     padding: 100px;
     padding-bottom: 100px;
-    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5ATG1s-PCoq9LZPg9dhMxTHCJWgYzxmuNyw&usqp=CAU) ;
+    background-image:url(./Screenshot\ 2023-08-15\ 152545.png) ;
     background-repeat : no-repeat;
     background-size: 100%;
    
@@ -199,7 +212,7 @@ font-size: 20px;
     justify-content: center;
     padding: 150px;
     padding-bottom: 250px;
-    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyApWeSSvOWkDFxqtv5FGLfiA__swyrRxmJg&usqp=CAU) ;
+    background-image:url(./Screenshot\ 2023-08-15\ 153249.png) ;
     background-repeat : no-repeat;
     background-size: 100%;
 }

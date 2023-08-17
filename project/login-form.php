@@ -6,11 +6,11 @@ session_start();
 
 if(isset($_POST['submit'])){
 
-    $name = ($_POST['name']);
+    // $name = ($_POST['name']);
     $email = ($_POST['email']);
     $pass = md5($_POST['password']);
-    $cpass = md5($_POST['cpassword']);
-    $user_type = $_POST['user_type'];
+    // $cpass = md5($_POST['cpassword']);
+    // $user_type = $_POST['user_type'];
 
     $select = " SELECT * FROM user_form  WHERE email = '$email'  && password = '$pass' ";
 

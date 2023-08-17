@@ -25,10 +25,14 @@ if(!isset($_SESSION['admin_name'])){
       <h3>Hi, <span>Admin</span></h3>  
       <h1> Welcome <span> <?php echo $_SESSION['admin_name'] ?></span></h1>
       <p> This is an admin page </p>
-      <a href="login-form.php" class="btn">Log in </a>
-      <a href="register-form.php" class="btn">Register </a>
+      <!-- <a href="login-form.php" class="btn">Log in </a> -->
+      <!-- <a href="register-form.php" class="btn">Register </a> -->
       <a href="logout.php" class="btn">Log out </a>
     </div>
+
+    <table>
+
+    </table>
 
     </div>
 </body>
